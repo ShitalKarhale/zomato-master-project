@@ -8,5 +8,10 @@ const ImageModel=new mongoose.Schema({
         },
 
     ],
-});
+}
+,
+{
+  timestamps:true, 
+}
+);
 export const ImageModel=mongoose.model("Images",ImageSchema);
